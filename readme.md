@@ -26,7 +26,7 @@ If you find our work useful in your research please consider citing our paper:
                Tom van Dijk and
                Guido de Croon},
   booktitle = {},
-  year = {}
+  year = {2021}
 }
 ```
 
