@@ -20,13 +20,13 @@ A description of monodepth can be see in their readme below. The method for test
 ## Reference
 If you find our work useful in your research please consider citing our paper:
 ```
-@inproceedings{filled_disparity,
-  title     = {Self-Supervised Monocular Depth Estimation of Untextured Indoor Rotated Scenes},
-  author    = {Benjamin Ketjens and
-               Tom van Dijk and
-               Guido de Croon},
-  booktitle = {},
-  year = {2021}
+@misc{keltjens2021selfsupervised,
+      title={Self-Supervised Monocular Depth Estimation of Untextured Indoor Rotated Scenes}, 
+      author={Benjamin Keltjens and Tom van Dijk and Guido de Croon},
+      year={2021},
+      eprint={2106.12958},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 
