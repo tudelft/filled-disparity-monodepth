@@ -217,7 +217,6 @@ def disparityFillerFunction(images, disparities, name='untextured_filler', **kwa
 
         def body(filled_disps, count):
             # Body function for while loop. Average over filled pixels
-            # Essentially performs averaging on the pixels in the opposite order that they were generated in the first pass
             # Input:  filled_disps (tensor) - tensor of filled disparities (batch, height, width, channels(1))
             #         count (tensor) - int tensor of count variable counting down to 0
             # Return: filled_disps (tensor) - tensor of averaged disparities (batch, height, width, channels(1))
