@@ -76,7 +76,7 @@ def disparityFillerFunction(images, disparities, name='untextured_filler', **kwa
         return tf.reshape(sumKernel, [N, N, 1, 1]) # reshape array to apply on batches
     
     def _createAveragingKernel(N):
-        # Create kernel to average surrounding pixels, not including current pixel
+        # Create kernel to average surrounding pixels
         # Input:  N (int) - Size of averaging kernel
         # Return: Kernel (tensor) - averaging kernel 
         kernel = np.ones((N,N))
