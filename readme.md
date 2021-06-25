@@ -1,3 +1,37 @@
+#  Filled Disparity monodepth
+
+**Self-Supervised Monocular Depth Estimation of Untextured Indoor Rotated Scenes**  
+Benjamin Keltjens, Tom van Dijk and Guido de Croon 
+
+For more details:
+
+[arXiv](https://arxiv.org/abs/2106.12958) |
+[Dataset](https://dataverse.nl/dataset.xhtml?persistentId=doi%3A10.34894%2FKIBWFC) |
+[MAVlab](https://mavlab.tudelft.nl/)
+
+An adapted network based on monodepth that improves perfromance in indoor untextured scenes. 
+
+<p align="center">
+  <img src="./images/filled_disparity_comparison.png" alt ="filled_disparity loss">
+<p/>
+
+A description of monodepth can be see in their readme below. The method for testing and training is the same as described there. We recommend using indoor datasets, such as ours listed above, to train and test this network.
+
+## Reference
+If you find our work useful in your research please consider citing our paper:
+```
+@misc{keltjens2021selfsupervised,
+      title={Self-Supervised Monocular Depth Estimation of Untextured Indoor Rotated Scenes}, 
+      author={Benjamin Keltjens and Tom van Dijk and Guido de Croon},
+      year={2021},
+      eprint={2106.12958},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+&nbsp;
+
 # monodepth
 Tensorflow implementation of unsupervised single image depth prediction using a convolutional neural network.
 
