@@ -5,7 +5,7 @@ Benjamin Keltjens, Tom van Dijk and Guido de Croon
 
 For more details:
 
-[arXiv](https://arxiv.org/abs/) |
+[arXiv](https://arxiv.org/abs/2106.12958) |
 [Dataset](https://dataverse.nl/dataset.xhtml?persistentId=doi%3A10.34894%2FKIBWFC) |
 [MAVlab](https://mavlab.tudelft.nl/)
 
